@@ -1,0 +1,25 @@
+[debug] [2023-11-23T11:45:10.242Z] ----------------------------------------------------------------------
+[debug] [2023-11-23T11:45:10.244Z] Command:       /usr/local/bin/firebase /Users/apple/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2023-11-23T11:45:10.244Z] CLI Version:   12.9.1
+[debug] [2023-11-23T11:45:10.244Z] Platform:      darwin
+[debug] [2023-11-23T11:45:10.244Z] Node Version:  v16.16.0
+[debug] [2023-11-23T11:45:10.250Z] Time:          Thu Nov 23 2023 17:15:10 GMT+0530 (India Standard Time)
+[debug] [2023-11-23T11:45:10.250Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-23T11:45:10.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-23T11:45:10.257Z] > authorizing via signed-in user (zkzaved@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/Workspace/Github/times-new
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+

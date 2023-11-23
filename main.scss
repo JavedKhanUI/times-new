@@ -5,11 +5,11 @@
 $primary : #1b1e50;
 $secondary: #fcb040;
 
-@import "bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap";
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-@import "tiny-slider/dist/tiny-slider.css";
+@import "./node_modules/tiny-slider/dist/tiny-slider.css";
 
 :root{
     --bs-body-font-family:'Lato', sans-serif;
@@ -21,7 +21,6 @@ main {
     margin-top: 5em;
 }
 // Then add additional custom code here
-#advertise{
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link.show{
@@ -221,8 +220,6 @@ address span {
 }
 footer ul li a.nav-link {
     font-size: 14px;
-}
-
 }
 
 .blog-header{

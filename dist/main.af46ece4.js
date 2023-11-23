@@ -194,7 +194,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"tiny-slider/dist/tiny-slider.css":"node_modules/tiny-slider/dist/tiny-slider.css","./img/element-04.png":[["element-04.ca74361d.png","img/element-04.png"],"img/element-04.png"],"./img/right-quote.svg":[["right-quote.d18a6e77.svg","img/right-quote.svg"],"img/right-quote.svg"],"./img/blog-header-01.jpg":[["blog-header-01.bea2caef.jpg","img/blog-header-01.jpg"],"img/blog-header-01.jpg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./node_modules/tiny-slider/dist/tiny-slider.css":"node_modules/tiny-slider/dist/tiny-slider.css","./img/element-04.png":[["element-04.ca74361d.png","img/element-04.png"],"img/element-04.png"],"./img/right-quote.svg":[["right-quote.d18a6e77.svg","img/right-quote.svg"],"img/right-quote.svg"],"./img/blog-header-01.jpg":[["blog-header-01.bea2caef.jpg","img/blog-header-01.jpg"],"img/blog-header-01.jpg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -222,7 +222,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52986" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54020" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
